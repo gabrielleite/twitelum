@@ -17,7 +17,7 @@ class Cabecalho extends Component {
                             <li className="navMenu__item">
                                 <a className="navMenu__link">
                                     Bem vindo(a): <br />
-                                    <strong>@fulanodetal</strong>
+                                    <strong>{ this.props.usuario }</strong>
                                 </a>
                             </li>
                             <li className="navMenu__item">
